@@ -1,0 +1,42 @@
+.
+|-- Dataset
+|   |-- CHI3D
+|   |   `-- train
+|   |-- Crowd
+|   |   |-- mix1_6persons.npy
+|   |   `-- mix2_10persons.npy
+|   `-- Mocap
+|       |-- test_3_75_mocap_umpm.npy
+|       `-- train_3_75_mocap_umpm.npy
+|-- Dataset_tools
+|   |-- Dataset_CHI3D.py
+|   `-- Dataset_Mocap.py
+|-- main_CHI3D.py
+|-- main_Mocap.py
+|-- model
+|   |-- checkpoint
+|   |   |-- exp_CHI3D_ST_MoE_in50_out25_lr_0.01_lrd_0.98_bs_96_ep_100_gcn3_mamba1_loss_sp1.0tp1.0_dmodel256_combineNone_nlayer1_topk4
+|   |   |-- exp_Mocap_FixedWeightMOE_Mamba_in50_out25_lr_0.01_lrd_0.98_bs_96_ep_100_gcn3_mamba1_loss_sp1.0tp1.0_dmodel256_combineNone_nlayer1_topk4
+|   |   |-- exp_Mocap_MOE_Mamba_ThreeLayers_in50_out25_lr_0.01_lrd_0.98_bs_96_ep_100_gcn3_mamba1_loss_sp1.0tp1.0_dmodel256_combineNone_nlayer1_topk8
+|   |   |-- exp_Mocap_ST_MoE_in50_out25_lr_0.01_lrd_0.98_bs_96_ep_100_gcn3_mamba1_loss_sp1.0tp1.0_dmodel256_combineNone_nlayer1_topk4
+|   |   `-- option.json
+|   |-- Experts.py
+|   |-- layers
+|   |   |-- GCN.py
+|   |   |-- Mamba.py
+|   |   `-- TimeCon.py
+|   `-- ST_MoE.py
+|-- option
+|   `-- option_Mocap.py
+|-- requirements.txt
+|-- structure.txt
+|-- test_chi3d.sh
+|-- test_ST_MoE.sh
+|-- train_chi3d.sh
+|-- train_ST_MoE.sh
+`-- utils
+    |-- data_utils.py
+    |-- forward_kinematics.py
+    `-- other_utils.py
+
+15 directories, 24 files
