@@ -83,7 +83,16 @@ To run the tests, simply execute the corresponding shell script. Note that you n
 
 To switch datasets, you only need to change the value of the ``--dataset`` parameter.
 ## Citation
+If you find our work helpful for your research, please cite our paper:
 
+```bibtex
+@article{yin2025spatiotemporal,
+  title={Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction},
+  author={Yin, Zheng and Li, Chengjian and Shu, Xiangbo and Cao, Meiqi and Yan, Rui and Tang, Jinhui},
+  journal={arXiv preprint arXiv:2512.21707},
+  year={2025}
+}
+```
 
 ## Thanks
 [TBIFormer](https://github.com/xiaogangpeng/TBIFormer)
@@ -91,3 +100,4 @@ To switch datasets, you only need to change the value of the ``--dataset`` param
 [PGBIG](https://github.com/705062791/PGBIG)
 
 [IAFormer](https://github.com/ArcticPole/IAFormer)
+
