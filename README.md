@@ -91,6 +91,16 @@ To switch datasets, you only need to change the value of the ``--dataset`` param
 If you find our work helpful for your research, please cite our paper:
 
 ```bibtex
+@inproceedings{yin2026spatiotemporal,
+  title={Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction},
+  author={Yin, Zheng and Li, Chengjian and Shu, Xiangbo and Cao, Meiqi and Yan, Rui and Tang, Jinhui},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={14},
+  pages={12044--12052},
+  year={2026}
+}
+
 @article{yin2025spatiotemporal,
   title={Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction},
   author={Yin, Zheng and Li, Chengjian and Shu, Xiangbo and Cao, Meiqi and Yan, Rui and Tang, Jinhui},
