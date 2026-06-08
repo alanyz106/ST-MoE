@@ -1,7 +1,12 @@
 # Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction (ST-MoE)
 
-Accepted by Association for the Advancement of Artificial Intelligence (AAAI2026-oral)
+Accepted by Association for the Advancement of Artificial Intelligence (AAAI2026-oral) [arXiv](https://arxiv.org/abs/2512.21707)
+
 ## Overview
+
+![overview](overview.jpg)
+
+## Abstract
 Comprehensively and flexibly capturing the complex spatio
 temporal dependencies of human motion is critical for multi
 person motion prediction. Existing methods grapple with
@@ -100,4 +105,3 @@ If you find our work helpful for your research, please cite our paper:
 [PGBIG](https://github.com/705062791/PGBIG)
 
 [IAFormer](https://github.com/ArcticPole/IAFormer)
-
